@@ -5,6 +5,13 @@ import KeygenCard from "../components/KeygenCard";
 import useFetchKey from "../data/useFetchKey";
 import ParameterView from "../components/ParameterView";
 
+export async function getServerSideProps(context) {
+	return {
+		props: {} // will be passed to the page component as props
+	};
+}
+
+
 export default function Keygen() {
 	const [bitlen, setBitlen] = useState(0);
 	const [shouldFetchKey, setShouldFetchKey] = useState(false);
