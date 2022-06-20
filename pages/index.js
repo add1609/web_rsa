@@ -6,7 +6,7 @@ export default function Home() {
 		<div className={styles.container}>
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					Welcome to <Link href="/"><a>webRSA!</a></Link>
+					Welcome to <Link href="/keygen"><a>webRSA!</a></Link>
 				</h1>
 
 				<p className={styles.description}>
