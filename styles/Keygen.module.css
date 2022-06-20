@@ -1,0 +1,63 @@
+.primaryColor {
+    color: #006a4e;
+}
+.cardHeader {
+    background-color: #212529;
+    color: #42b883;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0.6rem 0.8rem;
+}
+.cardBody {
+    min-height: 170px;
+}
+.code {
+    background: rgba(0, 0, 0, .03);
+    border-radius: 5px;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+}
+.KeygenGroup > * {
+    font-size: 0.95rem;
+    margin: 0 5px 0 5px;
+}
+.parameterName {
+    font-size: 1.15rem;
+}
+.parameterValueBox {
+    background: rgba(0, 0, 0, .04);
+    flex-grow: 1;
+    overflow: scroll;
+}
+.parameterValue {
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    padding: 0.65rem;
+    word-break: keep-all;
+}
+.msgInput {
+    height: 228px !important;
+    resize: none;
+}
+@media (max-width: 1199px) {
+    .cardHeader {
+        font-size: 1.4rem;
+    }
+    .cardBody {
+        min-height: 10vh;
+    }
+}
+@media (max-width: 992px) {
+    .cardHeader {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 640px) {
+    .cardHeader {
+        font-size: 1.2rem;
+    }
+}

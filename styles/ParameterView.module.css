@@ -1,0 +1,16 @@
+.parameterName {
+    font-size: 1.15rem;
+}
+.parameterValueBox {
+    background: rgba(0, 0, 0, .04);
+    flex-grow: 1;
+    overflow: scroll;
+}
+.parameterValue {
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    padding: 0.65rem;
+    word-break: keep-all;
+}

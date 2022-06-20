@@ -1,0 +1,18 @@
+.footer {
+    align-items: center;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.footer a {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
