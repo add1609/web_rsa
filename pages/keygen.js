@@ -15,7 +15,7 @@ export async function getServerSideProps(context) {
 export default function Keygen() {
 	const [bitlen, setBitlen] = useState(0);
 	const [shouldFetchKey, setShouldFetchKey] = useState(false);
-	const keyUrl = "http://64.225.92.210:8000/gen/keypair/";
+	const keyUrl = "//64.225.92.210:8000/gen/keypair/";
 	const {
 		keyData,
 		keyLoading,
